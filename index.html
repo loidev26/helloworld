@@ -15,10 +15,10 @@
 	<body>
 		<!-- LogIn Page Start -->
 		<section id="login">
-			<div class="container-fluid">
+			<div class="container-fluid vh-100">
 				<div class="row">
-					<div class="col-md-6 width-50 bg-secondary">
-						<form class="m-5 p-5 bg-white">
+					<div class="col-md-6 border d-flex justify-content-center align-items-center">
+						<form class="p-5 my-auto bg-white w-100 mx-0">
 							<p class="text-end">
 								<strong>
 									Log into Helloworld
@@ -26,12 +26,12 @@
 								</strong>
 							</p>
 							  <div class="mb-3">
-							    <label for="exampleInputEmail1" class="form-label">Email address</label>
-							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+							    <label for="exampleInputEmail1" class="form-label" required>Email address</label>
+							    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
 							  </div>
 							  <div class="mb-3">
 							    <label for="exampleInputPassword1" class="form-label">Password</label>
-							    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
 							  </div>
 							  <button type="submit" class="btn btn-primary w-100 my-2">Log in</button>
 							  <a href="#" class="d-block text-center text-decoration-none text-dark py-3">
@@ -43,20 +43,10 @@
 							  	Lael
 							  </p>
 						</form>
-            <div class="col-md-6 border-end pe-5">
-              <h2 class="mb-3">AutoCustoms</h2>
-              <p class="w-85">
-                  AutoCustoms is a forward-thinking car company dedicated to
-                  crafting innovative, high-performance vehicles that blend
-                  cutting-edge technology with exceptional design.
-              </p>
-
-              <button class="rounded bg-primary border-0 p-2 text-white mt-2">
-                  Check out our Projects!
-              </button>
-              <img src="resources/images/onepiece.png" class="img-fluid image w-75" alt="Strawhat">
-            </div>
 					</div>
+		            <div class="col-md-6 vh-100 d-flex justify-content-center align-items-center">
+		              <img src="resources/images/onepiece.png" class="img-fluid image" alt="Strawhat" class="img-fluid my-auto">
+		            </div>
 				</div>
 			</div>
 		</section>
